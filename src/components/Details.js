@@ -24,7 +24,7 @@ export default class Details extends Component {
                                     <img src={img} className="img-fluid" alt="product" />
                                 </div>
                                 <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
-                                    <h1>model: {title}</h1>
+                                    <h1>{title}</h1>
                                     <h4 className="text-green">
                                         <strong>
                                             Size : <span>

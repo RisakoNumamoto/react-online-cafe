@@ -86,7 +86,7 @@ const ProductWrapper = styled.div`
     overflow:hidden;
 }
 .card-img-top{
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 .img-container:hover .card-img-top{
     transform: scale(1.2);
@@ -105,7 +105,7 @@ const ProductWrapper = styled.div`
 }
 .img-container:hover .cart-btn{
     transform: translate(0,0);
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 .cart-btn:hover{
     color: var(--mainGreen);
